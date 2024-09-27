@@ -7,6 +7,13 @@ df_selic = pd.read_json("https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?
 print(df_selic.info())
 
 
+============================================================================================
 
+retirando duplicidade 
+
+df.drop_duplicates(keep='last', inplace=True)
+
+
+===========================================================================================
 
 
